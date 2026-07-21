@@ -1,0 +1,7 @@
+interface:
+  display_name: "Logic Check"
+  short_description: "Check claims, assumptions, and reasoning"
+  default_prompt: "Use $logic-check to audit this claim and its supporting reasoning."
+
+policy:
+  allow_implicit_invocation: true
