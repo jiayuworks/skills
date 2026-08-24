@@ -1,6 +1,6 @@
 ---
 name: logical-clarity
-description: Use when Codex needs to check claims, arguments, plans, analyses, or its own draft for logical validity; expose hidden assumptions; distinguish evidence from rhetoric; detect equivocation, false dichotomies, causal leaps, and unsupported category labels; resist rationalizing user or model output; and answer with concise, plain, critical reasoning.
+description: Use when Codex needs to check claims, arguments, plans, analyses, rules, or its own draft for logical validity; expose hidden assumptions; distinguish evidence from rhetoric; detect equivocation, false dichotomies, causal leaps, unsupported category labels, and conflicts among rule-making, participation, and adjudication; resist rationalizing user or model output; and answer with concise, plain, critical reasoning.
 ---
 
 # Logical Clarity
@@ -22,11 +22,15 @@ Apply this check after drafting and before sending. These constraints override t
    - State the label's criteria.
    - Separate necessary evidence from merely similar features.
    - Lower or withdraw the conclusion when the criteria or evidence are incomplete.
-4. Compress the answer.
+4. Inspect rule-governed claims for concentrated roles.
+   - Identify who defines the rule, falls under it, interprets exceptions, supplies evidence, and decides compliance.
+   - When the same interested actor controls several roles, require criteria fixed in advance, uniform application, independently checkable evidence, and external review.
+   - Do not infer invalidity from role overlap alone. Name the exact independence condition that is missing.
+5. Compress the answer.
    - Lead with one verdict sentence.
    - Default to no more than five points, with no more than two sentences per point.
    - Remove repeated restatements, decorative headings, and evidence that does not change the verdict.
-5. If any check fails, rewrite the draft and run the check again.
+6. If any check fails, rewrite the draft and run the check again.
    - Do not announce compliance with this skill. Demonstrate it in the answer.
 
 ## Core Discipline
@@ -93,6 +97,25 @@ Increase scrutiny when a claim sounds plausible. Plausibility can hide missing q
 - Do not turn a user's intention into a premise unless the user stated it.
 - Do not accept framing terms such as "obvious", "just", "merely", "natural", or "inevitable" without inspecting what they smuggle in.
 - Do not optimize for agreement when the reasoning calls for resistance.
+
+## Rule Independence
+
+A rule that claims general force must have application conditions independent of an interested subject's will.
+
+- A rule-maker who falls within the rule's domain remains subject to the same predicate and standard as every other qualifying subject.
+- A subject's judgment about its own compliance cannot serve as the sole evidence that compliance holds.
+- Treat independence as compromised when an interested subject can unilaterally define the rule, reinterpret it, grant itself exceptions, control the evidence, or issue the final judgment in its own case.
+- Role overlap signals a conflict risk. Establish the defect by identifying missing prior criteria, independent evidence, external review, or appeal.
+
+Use this logical form when useful:
+
+```text
+For every x, if P(x), then R(x).
+P(a).
+Therefore R(a), including when a formulated the rule.
+
+If a benefits from the conclusion R(a), a's declaration alone does not establish R(a).
+```
 
 ## Contrast and Analogy Discipline
 
