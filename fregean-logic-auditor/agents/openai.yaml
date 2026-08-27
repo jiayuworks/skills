@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fregean Logic Auditor"
+  short_description: "Audit claims, assumptions, and reasoning"
+  default_prompt: "Use $fregean-logic-auditor to audit this claim and its supporting reasoning."
+
+policy:
+  allow_implicit_invocation: true
