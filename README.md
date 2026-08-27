@@ -3,4 +3,4 @@ There are all skills I have used in REAL work.
 
 ## Available skills
 
-- [`logical-clarity`](./logical-clarity): Clarify claims, assumptions, and reasoning.
+- [`fregean-logic-auditor`](./fregean-logic-auditor): Audit claims, assumptions, and reasoning.
