@@ -1,7 +1,0 @@
-interface:
-  display_name: "Logical Clarity"
-  short_description: "Clarify claims, assumptions, and reasoning"
-  default_prompt: "Use $logical-clarity to audit this claim and its supporting reasoning."
-
-policy:
-  allow_implicit_invocation: true
